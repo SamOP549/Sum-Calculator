@@ -1,0 +1,57 @@
+* {
+    flex: content;
+    align-items: center;
+    background: linear-gradient(to right, rgb(80, 155, 253) 20%, rgb(121, 224, 121));
+}
+
+.form {
+    margin: 50px;
+    padding: 50px;
+}
+
+.form .box {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-style: double;
+}
+
+.form #a , #b {
+    height: 30px;
+    width: 160px;
+}
+
+.form #c {
+    height: 30px;
+    width: 50px;
+}
+
+navbar {
+    position: absolute;
+    padding: 10px;
+    display: table;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+    
+}
+
+nav .txt {
+    color: rgb(255, 255, 255);
+}
+nav .name {
+    color: red;
+    background: rgb(0, 0, 0);
+}
+
+.ans-box {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-style: double;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
